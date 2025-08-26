@@ -76,12 +76,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c89b6564070a1fc77c157a5c10ebc2827416c396",
     "author": "Oliver",
     "commit": {
       "date": "2025-08-26T03:36:48.000Z",
       "message": "final",
-      "url": "https://github.com/elpapumisterios/saludador/commit/HEAD"
+      "url": "https://github.com/elpapumisterios/saludador/commit/c89b6564070a1fc77c157a5c10ebc2827416c396"
     },
     "stats": {
       "total": 1,
@@ -91,6 +91,25 @@
     },
     "coverage": 87.88,
     "test_count": 20,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Oliver",
+    "commit": {
+      "date": "2025-08-26T13:42:08.000Z",
+      "message": "test dividir",
+      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/HEAD"
+    },
+    "stats": {
+      "total": 24,
+      "additions": 22,
+      "deletions": 2,
+      "date": "2025-08-26"
+    },
+    "coverage": 88.57,
+    "test_count": 22,
     "failed_tests": 0,
     "conclusion": "success"
   }
