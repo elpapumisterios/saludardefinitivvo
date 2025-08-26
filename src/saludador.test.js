@@ -1,4 +1,4 @@
-import { saludar, saludarEnIdioma, saludarSegunHora,saludarPorGenero } from "./saludador.js";
+import { saludar, saludarEnIdioma, saludarSegunHora,saludarPorGenero, saludarPorEdad } from "./saludador.js";
 
 test("saludar con nombre devuelve Hola, nombre!", () => {
   expect(saludar("Laura")).toBe("Hola, Laura!");
@@ -43,4 +43,29 @@ describe("Tests para saludarPorGenero", () => {
     expect(saludarPorGenero("", "otro")).toBe("Hola, desconocido!");
   });
 
+});
+
+// Tests por edad
+describe("Tests para saludarPorEdad", () => {
+  test("Edad < 13 devuelve saludo para niño", () => {
+    expect(saludarPorEdad("Laura", 10)).toBe("Hola, pequeño Laura!");
+  });
+
+  test("Edad entre 13 y 19 devuelve saludo para joven", () => {
+    expect(saludarPorEdad("Laura", 16)).toBe("Hola, joven Laura!");
+  });
+
+  test("Edad entre 20 y 59 devuelve saludo para adulto", () => {
+    expect(saludarPorEdad("Laura", 35)).toBe("Hola, adulto Laura!");
+  });
+
+  test("Edad >= 60 devuelve saludo para persona mayor", () => {
+    expect(saludarPorEdad("Laura", 65)).toBe("Hola, señor(a) Laura!");
+  });
+
+  test("Sin nombre devuelve 'desconocido'", () => {
+    expect(saludarPorEdad("", 10)).toBe("Hola, pequeño desconocido!");
+    expect(saludarPorEdad("", 30)).toBe("Hola, adulto desconocido!");
+    expect(saludarPorEdad("", 70)).toBe("Hola, señor(a) desconocido!");
+  });
 });

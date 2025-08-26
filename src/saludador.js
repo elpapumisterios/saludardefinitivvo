@@ -55,4 +55,17 @@ export function saludarPorGenero(nombre, genero) {
   }
 }
 
+// Saludo según edad
+export function saludarPorEdad(nombre, edad) {
+  if (!nombre || nombre.trim() === "") {
+    nombre = "desconocido";
+  }
+
+  if (edad < 13) return `Hola, pequeño ${nombre}!`;
+  if (edad < 20) return `Hola, joven ${nombre}!`;
+  if (edad < 60) return `Hola, adulto ${nombre}!`;
+  return `Hola, señor(a) ${nombre}!`;
+}
+
+
 

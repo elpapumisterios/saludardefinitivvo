@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5227a30ba7dc7e293c60808c5fe62f94327f6b77",
     "author": "Oliver",
     "commit": {
       "date": "2025-08-26T02:04:45.000Z",
       "message": "saludar por genero",
-      "url": "https://github.com/elpapumisterios/saludador/commit/HEAD"
+      "url": "https://github.com/elpapumisterios/saludador/commit/5227a30ba7dc7e293c60808c5fe62f94327f6b77"
     },
     "stats": {
       "total": 58,
@@ -53,6 +53,25 @@
     },
     "coverage": 83.33,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Oliver",
+    "commit": {
+      "date": "2025-08-26T03:17:34.000Z",
+      "message": "ultimo cambio, se hicieron todos los test",
+      "url": "https://github.com/elpapumisterios/saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 79,
+      "additions": 75,
+      "deletions": 4,
+      "date": "2025-08-26"
+    },
+    "coverage": 87.88,
+    "test_count": 20,
     "failed_tests": 0,
     "conclusion": "success"
   }
