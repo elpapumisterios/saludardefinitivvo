@@ -57,17 +57,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8df957b4b5cf8655a05ef58433378b2be50b4835",
     "author": "Oliver",
     "commit": {
       "date": "2025-08-26T03:17:34.000Z",
       "message": "ultimo cambio, se hicieron todos los test",
-      "url": "https://github.com/elpapumisterios/saludador/commit/HEAD"
+      "url": "https://github.com/elpapumisterios/saludador/commit/8df957b4b5cf8655a05ef58433378b2be50b4835"
     },
     "stats": {
       "total": 79,
       "additions": 75,
       "deletions": 4,
+      "date": "2025-08-26"
+    },
+    "coverage": 87.88,
+    "test_count": 20,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Oliver",
+    "commit": {
+      "date": "2025-08-26T03:36:48.000Z",
+      "message": "final",
+      "url": "https://github.com/elpapumisterios/saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 1,
+      "additions": 1,
+      "deletions": 0,
       "date": "2025-08-26"
     },
     "coverage": 87.88,

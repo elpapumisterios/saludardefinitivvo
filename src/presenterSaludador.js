@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
 
     let saludo = saludarEnIdioma(nombre, idioma);
+  
     const saludoGenero = saludarPorGenero(nombre, genero);
     const saludoEdad = saludarPorEdad(nombre, edad);
     saludo += " " + saludarSegunHora(nombre, horaActual);
