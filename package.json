@@ -1,13 +1,14 @@
 {
   "name": "parcel-jest-base",
   "version": "1.0.0",
-  "description": "",
+  "description": "https://github.com/israelantezana/parcel-jest-base",
   "default": "index.html",
   "type": "module",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "test": "node ./script/tddScript.js",
+    "test": "jest",
+    "test:script": "node ./script/tddScript.js",
     "cypress": "cypress open",
     "cypress-run": "cypress run",
     "lint": "eslint .",
@@ -30,5 +31,15 @@
   },
   "dependencies": {
     "parcel-jest-base": "file:"
-  }
+  },
+  "main": "cypress.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/issues"
+  },
+  "homepage": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject#readme"
 }

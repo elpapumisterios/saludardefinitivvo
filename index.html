@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html xml:lang="es">
+<html lang="es">
   <head>
-    <title>Sumador</title>
+    <meta charset="UTF-8" />
+    <title>Sumador y Saludador</title>
   </head>
   <body>
+    <!-- SUMADOR -->
     <h1>Sumador</h1>
     <form id="sumar-form">
       <label for="primer-numero">Primer número:</label>
@@ -14,6 +16,26 @@
     </form>
     <div id="resultado-div"></div>
 
+    <hr />
+
+    <!-- SALUDADOR -->
+    <h1>Saludador</h1>
+    <label for="nombre">Tu nombre:</label>
+    <input type="text" id="nombre" placeholder="Escribe tu nombre" />
+
+    <label for="idioma">Idioma:</label>
+    <select id="idioma">
+      <option value="espanol">Español</option>
+      <option value="ingles">Inglés</option>
+      <option value="frances">Francés</option>
+      <option value="portugues">Portugués</option>
+    </select>
+
+    <button id="btn-saludar">Saludar</button>
+    <div id="resultado-saludo"></div>
+
+    <!-- Scripts -->
     <script type="module" src="./src/presenter.js"></script>
+    <script type="module" src="./src/presenterSaludador.js"></script>
   </body>
 </html>
