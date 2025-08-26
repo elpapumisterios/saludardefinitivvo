@@ -1,0 +1,7 @@
+-convertirfizzbuzz(n);
+-numero multiploi de 3 y 5 ejempl: 1
+-numero multiploi de 3 ->  fizz
+-numero multiploi de 5  buzz
+-numero multiploi de 3 y 5 ejempl: 15 fizzbuzz
+-generar cadenafizzbuzz()
+-dado un numero por usar: generar toda la secuencia de ese numero 

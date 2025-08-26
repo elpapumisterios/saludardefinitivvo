@@ -12,4 +12,5 @@ function multiplicar(a,b){
 function dividir(a,b){
     return a/b;
 }
+
 export {multiplicar, sumar, dividir};

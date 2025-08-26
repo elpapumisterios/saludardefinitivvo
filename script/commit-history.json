@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0eb7506c9a2d64e141feea6891d8ee0fb889882c",
     "author": "Oliver",
     "commit": {
       "date": "2025-08-26T13:42:08.000Z",
       "message": "test dividir",
-      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/HEAD"
+      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/0eb7506c9a2d64e141feea6891d8ee0fb889882c"
     },
     "stats": {
       "total": 24,
@@ -110,6 +110,25 @@
     },
     "coverage": 88.57,
     "test_count": 22,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Oliver",
+    "commit": {
+      "date": "2025-08-26T14:18:48.000Z",
+      "message": "testfizzbuzzr",
+      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/HEAD"
+    },
+    "stats": {
+      "total": 42,
+      "additions": 42,
+      "deletions": 0,
+      "date": "2025-08-26"
+    },
+    "coverage": 87.5,
+    "test_count": 19,
     "failed_tests": 0,
     "conclusion": "success"
   }
