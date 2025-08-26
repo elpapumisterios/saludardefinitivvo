@@ -38,3 +38,21 @@ export function saludarSegunHora(nombre, hora) {
     return `Buenas noches, ${nombre}!`;
   }
 }
+
+
+export function saludarPorGenero(nombre, genero) {
+  if (!nombre || nombre.trim() === "") {
+    nombre = "desconocido";
+  }
+
+  switch (genero.toLowerCase()) {
+    case "masculino":
+      return `Hola, señor ${nombre}!`;
+    case "femenino":
+      return `Hola, señora ${nombre}!`;
+    default:
+      return `Hola, ${nombre}!`;
+  }
+}
+
+

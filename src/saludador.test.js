@@ -1,4 +1,4 @@
-import { saludar, saludarEnIdioma, saludarSegunHora } from "./saludador.js";
+import { saludar, saludarEnIdioma, saludarSegunHora,saludarPorGenero } from "./saludador.js";
 
 test("saludar con nombre devuelve Hola, nombre!", () => {
   expect(saludar("Laura")).toBe("Hola, Laura!");
@@ -22,4 +22,25 @@ test("saludarSegunHora antes de mediodía", () => {
 
 test("saludarSegunHora después de las 18", () => {
   expect(saludarSegunHora("Laura", 20)).toBe("Buenas noches, Laura!");
+});
+describe("Tests para saludarPorGenero", () => {
+  
+  test("Saludo masculino", () => {
+    expect(saludarPorGenero("Laura", "masculino")).toBe("Hola, señor Laura!");
+  });
+
+  test("Saludo femenino", () => {
+    expect(saludarPorGenero("Laura", "femenino")).toBe("Hola, señora Laura!");
+  });
+
+  test("Saludo con género desconocido", () => {
+    expect(saludarPorGenero("Laura", "otro")).toBe("Hola, Laura!");
+  });
+
+  test("Saludo sin nombre", () => {
+    expect(saludarPorGenero("", "masculino")).toBe("Hola, señor desconocido!");
+    expect(saludarPorGenero("", "femenino")).toBe("Hola, señora desconocido!");
+    expect(saludarPorGenero("", "otro")).toBe("Hola, desconocido!");
+  });
+
 });

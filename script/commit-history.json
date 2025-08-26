@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "68c1904de846d1a69e09a85743ecd2fc368772c1",
     "author": "Oliver",
     "commit": {
       "date": "2025-08-26T01:42:38.000Z",
       "message": "saludar por nombre y según la hora",
-      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/68c1904de846d1a69e09a85743ecd2fc368772c1"
     },
     "stats": {
       "total": 139,
@@ -34,6 +34,25 @@
     },
     "coverage": 77.78,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Oliver",
+    "commit": {
+      "date": "2025-08-26T02:04:45.000Z",
+      "message": "saludar por genero",
+      "url": "https://github.com/elpapumisterios/saludador/commit/HEAD"
+    },
+    "stats": {
+      "total": 58,
+      "additions": 56,
+      "deletions": 2,
+      "date": "2025-08-26"
+    },
+    "coverage": 83.33,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }
