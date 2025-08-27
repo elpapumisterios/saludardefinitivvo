@@ -14,3 +14,7 @@ test("devuelve 'Fizz' si ingreso 3", () => {
 test("devuelve 'Buzz' si ingreso 5", () => {
   expect(fizzbuzz(5)).toBe("Buzz");
 });
+test("devuelve 'FizzBuzz' si ingreso 15", () => {
+  expect(fizzbuzz(15)).toBe("FizzBuzz");
+});
+
