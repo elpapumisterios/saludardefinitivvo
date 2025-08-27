@@ -1,3 +1,7 @@
-export function fizzbuzz(n) {
+/*export function fizzbuzz(n) {
   return "1";
+}*/
+export function fizzbuzz(n) {
+  return String(n);
 }
+

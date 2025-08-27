@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cea50b02549878eb9c5a674612f10921ba297348",
     "author": "Oliver",
     "commit": {
       "date": "2025-08-27T18:56:14.000Z",
       "message": "test + green devuele 1 para 1",
-      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/HEAD"
+      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/cea50b02549878eb9c5a674612f10921ba297348"
     },
     "stats": {
       "total": 44,
@@ -148,6 +148,25 @@
     },
     "coverage": 88.89,
     "test_count": 23,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Oliver",
+    "commit": {
+      "date": "2025-08-27T23:31:35.000Z",
+      "message": "prueba test devuelve numero normales",
+      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2025-08-27"
+    },
+    "coverage": 88.89,
+    "test_count": 24,
     "failed_tests": 0,
     "conclusion": "success"
   }
