@@ -209,18 +209,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ca0e4d40a52a6d8979f8fb0c2f3e0eb23bca489e",
     "author": "Oliver",
     "commit": {
       "date": "2025-08-27T23:54:21.000Z",
       "message": "prueba test multiplo de 3 y  5 Buzz",
-      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/HEAD"
+      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/ca0e4d40a52a6d8979f8fb0c2f3e0eb23bca489e"
     },
     "stats": {
       "total": 14,
       "additions": 12,
       "deletions": 2,
       "date": "2025-08-27"
+    },
+    "coverage": 90.48,
+    "test_count": 27,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Oliver",
+    "commit": {
+      "date": "2025-08-28T00:04:56.000Z",
+      "message": "prueba test multiplo de 3 y  5 Buzz2",
+      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
+      "date": "2025-08-28"
     },
     "coverage": 90.48,
     "test_count": 27,
