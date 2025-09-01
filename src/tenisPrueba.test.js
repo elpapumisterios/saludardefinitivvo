@@ -44,3 +44,13 @@ test('jugador 1 anota 3 puntos: 40-30', () => {
     juego.anotarJugador2();
     expect(juego.obtenerMarcador()).toBe('40-30');
 } );  
+test('jugador 2 anota deuce: Deuce', () => {
+    const juego = new JuegoTenis();
+    juego.anotarJugador1();
+    juego.anotarJugador1();
+    juego.anotarJugador1();
+    juego.anotarJugador2();
+    juego.anotarJugador2();
+    juego.anotarJugador2();
+    expect(juego.obtenerMarcador()).toBe('Deuce');
+} );
