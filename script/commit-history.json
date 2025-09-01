@@ -342,12 +342,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9e05f9a06bf42c2ec08d40853ab8666bf7be139b",
     "author": "Oliver",
     "commit": {
       "date": "2025-09-01T23:29:08.000Z",
       "message": "marcador judador 2  anota 2 punto  30-30 test",
-      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/HEAD"
+      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/9e05f9a06bf42c2ec08d40853ab8666bf7be139b"
     },
     "stats": {
       "total": 8,
@@ -357,6 +357,25 @@
     },
     "coverage": 81.36,
     "test_count": 32,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Oliver",
+    "commit": {
+      "date": "2025-09-01T23:30:41.000Z",
+      "message": "marcador judador 1  anota 3  punto 40-30 test",
+      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2025-09-01"
+    },
+    "coverage": 81.36,
+    "test_count": 33,
     "failed_tests": 0,
     "conclusion": "success"
   }
