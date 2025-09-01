@@ -65,3 +65,15 @@ test('jugador 1 anota ventaja: Ventaja Jugador 1', () => {
     juego.anotarJugador1();
     expect(juego.obtenerMarcador()).toBe('Ventaja Jugador 1');
 } );
+test('jugador 1 gana el juego: Game para Jugador 1', () => {
+    const juego = new JuegoTenis();
+    juego.anotarJugador1();
+    juego.anotarJugador1();
+    juego.anotarJugador1();
+    juego.anotarJugador2();
+    juego.anotarJugador2();
+    juego.anotarJugador2();
+    juego.anotarJugador1();
+    juego.anotarJugador1();
+    expect(juego.obtenerMarcador()).toBe('Game para Jugador 1');
+} );  
