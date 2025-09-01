@@ -1,3 +1,15 @@
+Opcion2:
+generarCadenaFizzBuzz(4)
+Dado un num por ususario:genera toda la secuenciaFIZZBuzz hasta el 
+opcione2:
+generarCadenaBizzBuzz(0). =>" =====> RETURN ""
+generarCadenaBizzBuzz(1). =>"1" =====> if return "" else  "1"
+generarCadenaBizzBuzz(2). =>"1 2" =====> for ""
+generarCadenaBizzBuzz(3). =>1 2  =====> Fizz ""
+
+
+
+
 -convertirfizzbuzz(n);
 -numero multiploi de 3 y 5 ejempl: 1
 -numero multiploi de 3 ->  fizz

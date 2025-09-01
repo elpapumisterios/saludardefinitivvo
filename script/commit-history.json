@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c8d0fe0e77b9d176aa546b4ed96750dc39fee764",
     "author": "Oliver",
     "commit": {
       "date": "2025-08-28T00:04:56.000Z",
       "message": "prueba test multiplo de 3 y  5 Buzz2",
-      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/HEAD"
+      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/c8d0fe0e77b9d176aa546b4ed96750dc39fee764"
     },
     "stats": {
       "total": 2,
@@ -243,6 +243,25 @@
     },
     "coverage": 90.48,
     "test_count": 27,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Oliver",
+    "commit": {
+      "date": "2025-09-01T23:04:24.000Z",
+      "message": "marcador inicial 0-0 test",
+      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/HEAD"
+    },
+    "stats": {
+      "total": 72,
+      "additions": 70,
+      "deletions": 2,
+      "date": "2025-09-01"
+    },
+    "coverage": 77.97,
+    "test_count": 28,
     "failed_tests": 0,
     "conclusion": "success"
   }

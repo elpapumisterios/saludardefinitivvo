@@ -17,4 +17,19 @@ test("devuelve 'Buzz' si ingreso 5", () => {
 test("devuelve 'FizzBuzz' si ingreso 15", () => {
   expect(fizzbuzz(15)).toBe("FizzBuzz");
 });
+//____________
+/*test("si jugador A sacar saca 40 puntos y jugador B 20 puntos, la funcion debe devolver 'Gana A'", () => {
+  expect(fizzbuzz(0,0)).toBe("gana A");
+});
+test("SI Jugador A saca 15 puntos: jugador A saco 15 puntos", () => {
+  expect(fizzbuzz(0,0)).toBe("15");
+});
+test("SI Jugador B saca 15 puntos: jugador A saco 15 puntos", () => {
+  expect(fizzbuzz(0,0)).toBe("15");
+});
+
+test("SI Jugador B o A empata puntos: jugador A y empate", () => {
+  expect(fizzbuzz(0,0)).toBe("empate");
+});*/
+
 

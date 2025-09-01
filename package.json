@@ -32,7 +32,6 @@
   "dependencies": {
     "parcel-jest-base": "file:"
   },
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject.git"
@@ -41,5 +40,6 @@
   "bugs": {
     "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/issues"
   },
-  "homepage": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject#readme"
+  "homepage": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject#readme",
+  "main": "cypress.config.js"
 }

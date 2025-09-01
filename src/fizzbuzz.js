@@ -19,3 +19,4 @@ export function fizzbuzz(n) {
   if (n % 5 === 0) return "Buzz";
   return String(n);
 }
+
