@@ -247,12 +247,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1754c9005604450ff41a793fcf47125ab5bd5aa1",
     "author": "Oliver",
     "commit": {
       "date": "2025-09-01T23:04:24.000Z",
       "message": "marcador inicial 0-0 test",
-      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/HEAD"
+      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/1754c9005604450ff41a793fcf47125ab5bd5aa1"
     },
     "stats": {
       "total": 72,
@@ -262,6 +262,25 @@
     },
     "coverage": 77.97,
     "test_count": 28,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Oliver",
+    "commit": {
+      "date": "2025-09-01T23:08:10.000Z",
+      "message": "marcador inicial 15-0 test",
+      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 7,
+      "deletions": 0,
+      "date": "2025-09-01"
+    },
+    "coverage": 79.66,
+    "test_count": 29,
     "failed_tests": 0,
     "conclusion": "success"
   }
