@@ -418,18 +418,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a8410694d6e41b85fb07aa3714d3996702c6d047",
     "author": "Oliver",
     "commit": {
       "date": "2025-09-01T23:45:48.000Z",
       "message": "ganador jugador  1   test",
-      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/HEAD"
+      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/a8410694d6e41b85fb07aa3714d3996702c6d047"
     },
     "stats": {
       "total": 41,
       "additions": 30,
       "deletions": 11,
       "date": "2025-09-01"
+    },
+    "coverage": 89.83,
+    "test_count": 36,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Oliver",
+    "commit": {
+      "date": "2025-09-04T02:18:51.000Z",
+      "message": "tarea 3  build, deployment con npm,parcel, netlify",
+      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/HEAD"
+    },
+    "stats": {
+      "total": 6022,
+      "additions": 2728,
+      "deletions": 3294,
+      "date": "2025-09-04"
     },
     "coverage": 89.83,
     "test_count": 36,
