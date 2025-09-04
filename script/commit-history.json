@@ -437,17 +437,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6c7789fca7c38dbbaceae2c115887683823b4ba9",
     "author": "Oliver",
     "commit": {
       "date": "2025-09-04T02:18:51.000Z",
       "message": "tarea 3  build, deployment con npm,parcel, netlify",
-      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/HEAD"
+      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/6c7789fca7c38dbbaceae2c115887683823b4ba9"
     },
     "stats": {
       "total": 6022,
       "additions": 2728,
       "deletions": 3294,
+      "date": "2025-09-04"
+    },
+    "coverage": 89.83,
+    "test_count": 36,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Oliver",
+    "commit": {
+      "date": "2025-09-04T02:35:17.000Z",
+      "message": "ultimo cambio de npm, parcel",
+      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/HEAD"
+    },
+    "stats": {
+      "total": 2,
+      "additions": 1,
+      "deletions": 1,
       "date": "2025-09-04"
     },
     "coverage": 89.83,
