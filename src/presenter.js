@@ -1,15 +1,41 @@
-import sumar from "./sumador.js";
+import { sumar, multiplicar, dividir } from './sumador.js';
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
-const div = document.querySelector("#resultado-div");
+// Inputs y div de resultado
+const num1Input = document.getElementById("primer-numero");
+const num2Input = document.getElementById("segundo-numero");
+const resultadoDiv = document.getElementById("resultado-div");
 
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
+// Botones
+const sumarBtn = document.getElementById("sumar-button");
+const multiplicarBtn = document.getElementById("multiplicar-button");
+const dividirBtn = document.getElementById("dividir-button");
 
-  const firstNumber = Number(first.value);
-  const secondNumber = Number(second.value);
+// Función para obtener valores
+function getValores() {
+    const a = parseFloat(num1Input.value);
+    const b = parseFloat(num2Input.value);
+    return { a, b };
+}
 
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
+// Evento Sumar
+sumarBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    const { a, b } = getValores();
+    resultadoDiv.textContent = `Resultado de Sumar: ${sumar(a, b)}`;
+});
+
+// Evento Multiplicar
+multiplicarBtn.addEventListener("click", () => {
+    const { a, b } = getValores();
+    resultadoDiv.textContent = `Resultado de Multiplicar: ${multiplicar(a, b)}`;
+});
+
+// Evento Dividir
+dividirBtn.addEventListener("click", () => {
+    const { a, b } = getValores();
+    try {
+        resultadoDiv.textContent = `Resultado de Dividir: ${dividir(a, b)}`;
+    } catch (error) {
+        resultadoDiv.textContent = `Error: ${error}`;
+    }
 });

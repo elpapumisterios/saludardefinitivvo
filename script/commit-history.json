@@ -475,17 +475,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "af356ff2062af993979eb55bc74871a794a6746c",
     "author": "Oliver",
     "commit": {
       "date": "2025-09-04T03:35:36.000Z",
       "message": "agregue presentetenis",
-      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/HEAD"
+      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/af356ff2062af993979eb55bc74871a794a6746c"
     },
     "stats": {
       "total": 33,
       "additions": 33,
       "deletions": 0,
+      "date": "2025-09-04"
+    },
+    "coverage": 89.83,
+    "test_count": 36,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Oliver",
+    "commit": {
+      "date": "2025-09-04T03:55:33.000Z",
+      "message": "multiplicacion division mostrar",
+      "url": "https://github.com/elpapumisterios/saludardefinitivvo/commit/HEAD"
+    },
+    "stats": {
+      "total": 66,
+      "additions": 48,
+      "deletions": 18,
       "date": "2025-09-04"
     },
     "coverage": 89.83,
